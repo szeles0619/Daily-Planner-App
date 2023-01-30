@@ -10,7 +10,7 @@ https://szeles0619.github.io/Daily-Planner-App/
 
 ## Deployed website screenshot:
 
-
+<img width="960" alt="Challenge7" src="https://user-images.githubusercontent.com/119215005/215609421-8dba138c-f69b-4e6c-afd3-d43cbba347c4.png">
 
 ## Usage
 
