@@ -41,7 +41,7 @@ function fillTimeTable() {
     loadSchedule();
 }
 
-// Save appointments to local storage function
+// Save schedule to local storage function
 function saveSchedule() {
 
     let keyName = $(this).parent().attr('id');
@@ -65,11 +65,7 @@ displayTodayDate();
 fillTimeTable();
 $('.saveBtn').on('click', saveSchedule);
 
-
+// Updating date and time table every minute
 setInterval(function() {
-    displayTodayDate();
-}, 60000);
-
-setInterval(function() {
-    fillTimeTable();
+    fillTimeTable(), displayTodayDate();
 }, 600000);
